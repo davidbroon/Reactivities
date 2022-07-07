@@ -20,7 +20,6 @@ function App() {
 	};
 
 	const location = useLocation();
-	console.log(location.pathname, ': ', location.key, location.state);
 
 	return (
 		<Routes>
