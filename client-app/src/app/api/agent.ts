@@ -2,7 +2,6 @@ import axios, { AxiosError, AxiosResponse } from 'axios';
 import { Activity } from '../models/activity';
 import { toast } from 'react-toastify';
 import { history } from '../..';
-import TestErrors from '../../features/errors/TestError';
 import { store } from '../stores/store';
 
 const sleep = (delay: number) => {
